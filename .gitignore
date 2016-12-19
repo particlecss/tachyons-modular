@@ -3,6 +3,9 @@ npm-debug.log
 .DS_STORE
 *.swp
 
+# logs
+*.log
+
 # builds
 packages/**/build
 
