@@ -28,13 +28,13 @@
   list-style-type: none;
 }
 
-.nested-copy-indent p+p {
+.nested-copy-indent p + p {
   text-indent: 1em;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.nested-copy-seperator p+p {
+.nested-copy-seperator p + p {
   margin-top: 1.5em;
 }
 
@@ -45,13 +45,12 @@
 }
 
 .nested-links a {
-  color: var(--blue);
-  transition: color .15s ease-in;
+  color: var(--blue, blue);
+  transition: color 0.15s ease-in;
 }
 
 .nested-links a:hover,
 .nested-links a:focus {
-  color: var(--light-blue);
-  transition: color .15s ease-in;
+  color: var(--light-blue, lightblue);
+  transition: color 0.15s ease-in;
 }
-

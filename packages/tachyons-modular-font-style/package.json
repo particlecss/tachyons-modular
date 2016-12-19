@@ -1,0 +1,33 @@
+{
+  "name": "tachyons-modular-font-style",
+  "version": "1.0.0",
+  "description": "",
+
+  "main": "index.css",
+  "style": "index.css",
+  "files": [
+    "index.css",
+    "lib"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:particlecss/tachyons-modular.git"
+  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "base"
+  ],
+
+  "author": "smuemd",
+  "license": "MIT",
+
+  "devDependencies": {
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

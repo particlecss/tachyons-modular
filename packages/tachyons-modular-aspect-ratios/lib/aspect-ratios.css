@@ -111,7 +111,7 @@
       height: 0;
       position: relative;
     }
-    .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
+    .aspect-ratio--16x9-l { padding-bottom: 56.25%;}
     .aspect-ratio--9x16-l { padding-bottom: 177.77%; }
     .aspect-ratio--4x3-l {  padding-bottom: 75%; }
     .aspect-ratio--3x4-l {  padding-bottom: 133.33%; }

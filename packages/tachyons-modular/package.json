@@ -1,0 +1,95 @@
+{
+  "name": "tachyons-modular",
+  "version": "1.0.0",
+  "description": "Functional CSS for humans",
+
+  "main": "index.css",
+  "style": "index.css",
+  "files": [
+    "index.css",
+    "index.html",
+    "build"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:particlecss/tachyons-modular.git"
+  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "base"
+  ],
+
+  "author": "smuemd",
+  "license": "MIT",
+
+  "dependencies": {
+    "tachyons-modular-aspect-ratios": "^1.0.1",
+    "tachyons-modular-background-position": "^1.0.0",
+    "tachyons-modular-background-size": "^1.0.0",
+    "tachyons-modular-border-colors": "^1.0.0",
+    "tachyons-modular-border-radius": "^1.0.0",
+    "tachyons-modular-border-style": "^1.0.0",
+    "tachyons-modular-border-widths": "^1.0.0",
+    "tachyons-modular-borders": "^1.0.0",
+    "tachyons-modular-box-shadow": "^1.0.0",
+    "tachyons-modular-box-sizing": "^1.0.0",
+    "tachyons-modular-clears": "^1.0.0",
+    "tachyons-modular-code": "^1.0.0",
+    "tachyons-modular-colors": "^1.0.0",
+    "tachyons-modular-coordinates": "^1.0.0",
+    "tachyons-modular-debug": "^1.0.0",
+    "tachyons-modular-debug-children": "^1.0.0",
+    "tachyons-modular-debug-grid": "^1.0.0",
+    "tachyons-modular-display": "^1.0.0",
+    "tachyons-modular-flexbox ": "^1.0.0",
+    "tachyons-modular-floats": "^1.0.0",
+    "tachyons-modular-font-family": "^1.0.0",
+    "tachyons-modular-font-style": "^1.0.0",
+    "tachyons-modular-font-weight": "^1.0.0",
+    "tachyons-modular-forms": "^1.0.0",
+    "tachyons-modular-heights": "^1.0.0",
+    "tachyons-modular-hovers": "^1.0.0",
+    "tachyons-modular-images": "^1.0.0",
+    "tachyons-modular-letter-spacing": "^1.0.0",
+    "tachyons-modular-line-height": "^1.0.0",
+    "tachyons-modular-links": "^1.0.0",
+    "tachyons-modular-lists": "^1.0.0",
+    "tachyons-modular-max-widths": "^1.0.0",
+    "tachyons-modular-media-queries": "^1.0.0",
+    "tachyons-modular-negative-margins": "^1.0.0",
+    "tachyons-modular-nested": "^1.0.0",
+    "tachyons-modular-opacity": "^1.0.0",
+    "tachyons-modular-outlines": "^1.0.0",
+    "tachyons-modular-overflow": "^1.0.0",
+    "tachyons-modular-position": "^1.0.0",
+    "tachyons-modular-rotations": "^1.0.0",
+    "tachyons-modular-skins": "^1.0.0",
+    "tachyons-modular-skins-pseudo": "^1.0.0",
+    "tachyons-modular-spacing": "^1.0.0",
+    "tachyons-modular-tables": "^1.0.0",
+    "tachyons-modular-text-align": "^1.0.0",
+    "tachyons-modular-text-decoration": "^1.0.0",
+    "tachyons-modular-text-transform": "^1.0.0",
+    "tachyons-modular-type-scale": "^1.0.0",
+    "tachyons-modular-typography": "^1.0.0",
+    "tachyons-modular-utilities": "^1.0.0",
+    "tachyons-modular-vertical-align": "^1.0.0",
+    "tachyons-modular-visibility": "^1.0.0",
+    "tachyons-modular-white-space": "^1.0.0",
+    "tachyons-modular-widths": "^1.0.0",
+    "tachyons-modular-word-break": "^1.0.0",
+    "tachyons-modular-z-index": "^1.0.0"
+  },
+
+  "devDependencies": {
+    "immutable-css-cli": "^1.1.1"
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:mutations": "immutable-css index.css --strict"
+  }
+}
