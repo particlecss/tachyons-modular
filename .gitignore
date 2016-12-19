@@ -2,3 +2,12 @@ node_modules
 npm-debug.log
 .DS_STORE
 *.swp
+
+# builds
+packages/**/build
+
+# Webstorm IDE
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
