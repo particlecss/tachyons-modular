@@ -90,7 +90,7 @@
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:mutations": "../../node_modules/.bin/immutable-css index.css --strict"
+    "test:mutations": "../../node_modules/.bin/immutable-css index.css --strict",
     "build:css": "echo \"building css in ${PWD##*/}\"; mkdir build -p && ../../node_modules/.bin/tachyons index.css > build/build.css"
   }
 }
