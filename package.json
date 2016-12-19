@@ -1,16 +1,21 @@
 {
-  "name": "tachyons",
-  "version": "4.6.1",
+  "name": "tachyons-modular",
+  "version": "1.0.0-beta1",
   "description": "Functional CSS for humans",
-  "author": "mrmrs",
-  "style": "css/tachyons.min.css",
-  "main": "css/tachyons.css",
+
+  "main": "readme.md",
   "files": [
-    "css",
-    "src"
+    "packages"
   ],
-  "repository": "tachyons-css/tachyons",
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:particlecss/tachyons-modular.git"
+  },
   "keywords": [
+    "browser",
+    "css utilities",
+    "style",
     "css",
     "oocss",
     "postcss",
@@ -19,31 +24,30 @@
     "responsive",
     "performance"
   ],
+
+  "author": "smuemd",
   "license": "MIT",
+
   "devDependencies": {
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
+    "lerna": "2.0.0-beta.31",
     "normalize.css": "^4.2.0",
-    "tachyons-modules": "^1.1.8",
+    "stylelint-config-standard": "^15.0.0",
     "tachyons-cli": "^1.0.10",
+    "tachyons-modules": "^1.1.8",
     "watch": "^1.0.1"
   },
-  "contributors": [
-    {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
-    },
-    {
-      "name": "john otander",
-      "url": "http://johnotander.com"
-    }
-  ],
+
   "scripts": {
-    "start": "npm run build:watch",
-    "mutations": "immutable-css src/tachyons.css --strict",
-    "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch 'npm run build' ./src/"
+    "start": "echo \"Noting to start. Run npm run build instead\"",
+    "bootstrap": "lerna bootstrap",
+    "lernaTest": "lerna run build:css",
+    "mutations": "immutable-css packages/tachyons-modular/index.css --strict",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:css": "for D in test/*/; do echo \"building css in ${D}\"; mkdir ${D}build -p; tachyons ${D}index.css > ${D}build/build.css; done",
+    "build:minify": "for D in test/*/; do echo \"minifying css in ${D}\"; mkdir ${D}build -p; tachyons ${D}index.css -m > ${D}build/build.min.css; done",
+    "build:docs": "for D in test/*/; do echo \"generating docs in ${D}\"; tachyons ${D}index.css --generate-docs --package=../../${D}package.json > ${D}readme.md; done",
+    "build:clear": "for D in test/*/; do echo \"removing build css in ${D}\"; rm -rf ${D}build && rm -rf ${D}readme.md ; done"
   }
 }
