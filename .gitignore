@@ -10,6 +10,7 @@ npm-debug.log
 packages/**/build
 
 # Webstorm IDE
+.idea
 
 # User-specific stuff:
 .idea/workspace.xml
