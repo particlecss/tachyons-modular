@@ -7,6 +7,14 @@
  
  */
 
+/**
+ * Dependengies (color variables)
+ * TODO: define local variables for colors
+ * TODO: formart to stylelint standard
+ */
+
+@import 'tachyons-modular-colors';
+
 .hover-black:hover, 
 .hover-black:focus { color: var(--black); }
 .hover-near-black:hover, 

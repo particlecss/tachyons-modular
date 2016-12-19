@@ -9,6 +9,14 @@
 
 */
 
+/**
+ * Dependencies (color variables)
+ * TODO: define local variables for colors
+ * TODO: format to stylelint standard
+ */
+
+@import 'tachyons-modular-colors';
+
 /* Text colors */
 
 .black-90 {         color: var(--black-90); }

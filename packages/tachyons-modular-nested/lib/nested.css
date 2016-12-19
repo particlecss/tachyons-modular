@@ -6,6 +6,14 @@
 
 */
 
+/**
+ * Dependengies (color variables)
+ * TODO: define local variables for colors
+ * TODO: formart to stylelint standard
+ */
+
+@import 'tachyons-modular-colors';
+
 .nested-copy-line-height p,
 .nested-copy-line-height ul,
 .nested-copy-line-height ol {

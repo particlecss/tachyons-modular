@@ -18,6 +18,14 @@
 
 */
 
+/**
+ * Dependengies (color variables)
+ * TODO: define local variables for colors
+ * TODO: formart to stylelint standard
+ */
+
+@import 'tachyons-modular-colors';
+
 .b--black {        border-color: var(--black); }
 .b--near-black {   border-color: var(--near-black); }
 .b--dark-gray {    border-color: var(--dark-gray); }

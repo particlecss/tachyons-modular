@@ -26,7 +26,13 @@
 
 */
 
+/**
+ * Dependencies (spacing variables)
+ * TODO: define local variables for spacing scale
+ * TODO: format to stylelint standard
+ */
 
+@import 'tachyons-modular-spacing';
 
 .na1 { margin: -var(--spacing-extra-small); }
 .na2 { margin: -var(--spacing-small); }

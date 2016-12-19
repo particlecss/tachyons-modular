@@ -24,10 +24,20 @@
   "author": "smuemd",
   "license": "MIT",
 
+
+  "dependencies": {
+    "tachyons-modular-colors": "^1.0.0"
+  },
+
   "devDependencies": {
   },
 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "build:css": "mkdir -p build && ../../node_modules/.bin/tachyons index.css > build/build.css",
+    "build:minify": "mkdir -p build && ../../node_modules/.bin/tachyons index.css -m > build/build.min.css",
+    "build:docs": "../../node_modules/.bin/tachyons index.css --generate-docs --package=../../packages/${PWD##*/}/package.json > ${D}readme.md",
+    "build:clean": "rm -rf build readme.md"
   }
 }

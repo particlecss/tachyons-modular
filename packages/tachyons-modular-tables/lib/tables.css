@@ -5,6 +5,14 @@
 
 */
 
+/**
+ * Dependengies (color variables)
+ * TODO: define local variables for colors
+ * TODO: formart to stylelint standard
+ */
+
+@import 'tachyons-modular-colors';
+
 .collapse {
     border-collapse: collapse;
     border-spacing: 0;
