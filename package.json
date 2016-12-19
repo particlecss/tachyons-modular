@@ -32,7 +32,6 @@
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
     "lerna": "2.0.0-beta.31",
-    "normalize.css": "^4.2.0",
     "stylelint-config-standard": "^15.0.0",
     "tachyons-cli": "^1.0.10",
     "tachyons-modules": "^1.1.8",
@@ -40,14 +39,18 @@
   },
 
   "scripts": {
-    "start": "echo \"Noting to start. Run npm run build instead\"",
+    "start": "echo \"Noting to start. Run 'npm run build' instead\" && exit 1",
     "bootstrap": "lerna bootstrap",
-    "lernaTest": "lerna run build:css",
-    "mutations": "immutable-css packages/tachyons-modular/index.css --strict",
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:mutations": "lerna run test:mutations",
+
     "build": "npm run build:css && npm run build:minify && npm run build:docs",
-    "build:css": "for D in test/*/; do echo \"building css in ${D}\"; mkdir ${D}build -p; tachyons ${D}index.css > ${D}build/build.css; done",
-    "build:minify": "for D in test/*/; do echo \"minifying css in ${D}\"; mkdir ${D}build -p; tachyons ${D}index.css -m > ${D}build/build.min.css; done",
-    "build:docs": "for D in test/*/; do echo \"generating docs in ${D}\"; tachyons ${D}index.css --generate-docs --package=../../${D}package.json > ${D}readme.md; done",
-    "build:clear": "for D in test/*/; do echo \"removing build css in ${D}\"; rm -rf ${D}build && rm -rf ${D}readme.md ; done"
+    "build:css": "lerna run build:css",
+    "build:minify": "lerna run build:minify",
+    "build:docs": "lerna run build:docs",
+
+    "build:clean": "lerna run build:clean",
+    "build:cleanAll": "for D in packages/*/; do echo \"removing build css in ${D}\"; rm -rf ${D}build ${D}readme.md && echo \"done\"; done"
   }
 }
