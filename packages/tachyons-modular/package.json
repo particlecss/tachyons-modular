@@ -26,6 +26,7 @@
   "license": "MIT",
 
   "dependencies": {
+    "normalize.css": "^5.0.0",
     "tachyons-modular-aspect-ratios": "^1.0.1",
     "tachyons-modular-background-position": "^1.0.0",
     "tachyons-modular-background-size": "^1.0.0",
@@ -44,7 +45,7 @@
     "tachyons-modular-debug-children": "^1.0.0",
     "tachyons-modular-debug-grid": "^1.0.0",
     "tachyons-modular-display": "^1.0.0",
-    "tachyons-modular-flexbox ": "^1.0.0",
+    "tachyons-modular-flexbox": "^1.0.0",
     "tachyons-modular-floats": "^1.0.0",
     "tachyons-modular-font-family": "^1.0.0",
     "tachyons-modular-font-style": "^1.0.0",
@@ -85,12 +86,15 @@
   },
 
   "devDependencies": {
-    "immutable-css-cli": "^1.1.1"
   },
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:mutations": "../../node_modules/.bin/immutable-css index.css --strict",
-    "build:css": "echo \"building css in ${PWD##*/}\"; mkdir build -p && ../../node_modules/.bin/tachyons index.css > build/build.css"
+    "test:mutations": "echo \"testing immutability of ${PWD##*/}\"; ../../node_modules/.bin/immutable-css index.css --strict && echo \"done\"",
+
+    "build:css": "mkdir -p build && ../../node_modules/.bin/tachyons index.css > build/build.css",
+    "build:minify": "mkdir -p build && ../../node_modules/.bin/tachyons index.css -m > build/build.min.css",
+    "build:docs": "echo \"no auto docs for ${PWD##*/}\"",
+    "build:clean": "rm -rf build"
   }
 }
