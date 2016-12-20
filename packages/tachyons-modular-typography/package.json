@@ -1,13 +1,15 @@
 {
   "name": "tachyons-modular-typography",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS utilities for typography http://tachyons.io.",
+
   "main": "index.css",
   "style": "index.css",
   "files": [
     "index.css",
     "lib"
   ],
+
   "repository": {
     "type": "git",
     "url": "git@github.com:particlecss/tachyons-modular.git"
@@ -18,11 +20,16 @@
     "css",
     "base"
   ],
+
   "author": "smuemd",
   "license": "MIT",
-  "devDependencies": {},
+
+  "devDependencies": {
+  },
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+
     "build:css": "mkdir -p build && ../../node_modules/.bin/tachyons index.css > build/build.css",
     "build:minify": "mkdir -p build && ../../node_modules/.bin/tachyons index.css -m > build/build.min.css",
     "build:docs": "../../node_modules/.bin/tachyons index.css --generate-docs --package=../../packages/${PWD##*/}/package.json > ${D}readme.md",
