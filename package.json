@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0",
   "description": "Functional CSS for humans",
 
   "main": "readme.md",
@@ -45,7 +45,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:mutations": "lerna run test:mutations",
 
-    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build": "npm run build:css && npm run build:minify",
     "build:css": "lerna run build:css",
     "build:minify": "lerna run build:minify",
     "build:docs": "lerna run build:docs",
