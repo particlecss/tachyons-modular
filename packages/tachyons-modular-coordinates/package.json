@@ -24,6 +24,10 @@
   "author": "smuemd",
   "license": "MIT",
 
+  "dependencies": {
+    "tachyons-modular-position": "^1.0.0"
+  },
+
   "devDependencies": {
   },
 

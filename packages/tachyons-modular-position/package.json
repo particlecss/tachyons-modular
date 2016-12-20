@@ -24,6 +24,10 @@
   "author": "smuemd",
   "license": "MIT",
 
+  "dependencies": {
+    
+  },
+
   "devDependencies": {
   },
 
