@@ -1,6 +1,6 @@
 # tachyons-modular-aspect-ratios 1.0.1
 
-Css for setting the aspect ratio of an element.
+Tachyons module for setting the aspect ratio of an element.
 
 #### Stats
 
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-modular-aspect-ratios
+git clone https://github.com/particlecss/tachyons-modular.git
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-modular-aspect-ratios.git
+git clone git@github.com:particlecss/tachyons-modular.git
 ```
 
 ## Usage
@@ -55,15 +55,15 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-modular-aspect-ratios@1.0.1/css/tachyons-modular-aspect-ratios.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-modular-aspect-ratios@1.0.1/build/build.min.css" />
 ```
 
 ##### Locally
-The built css is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `build` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-modular-aspect-ratios">
+<link rel="stylesheet" href="path/to/module/build/build.min.css">
 ```
 
 #### Development
