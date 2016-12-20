@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-media-queries",
   "version": "1.0.0",
-  "description": "",
+  "description": "Custom media queries http://tachyons.io.",
   "main": "index.css",
   "style": "index.css",
   "files": [

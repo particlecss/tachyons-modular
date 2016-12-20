@@ -1,13 +1,14 @@
 {
   "name": "tachyons-modular-heights",
   "version": "1.0.0",
-  "description": "",
+  "description": "Single purpose classes to set element height http://tachyons.io",
   "main": "index.css",
   "style": "index.css",
   "files": [
     "index.css",
     "lib"
   ],
+
   "repository": {
     "type": "git",
     "url": "git@github.com:particlecss/tachyons-modular.git"
@@ -18,9 +19,12 @@
     "css",
     "base"
   ],
+
   "author": "smuemd",
   "license": "MIT",
+
   "devDependencies": {},
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "mkdir -p build && ../../node_modules/.bin/tachyons index.css > build/build.css",
