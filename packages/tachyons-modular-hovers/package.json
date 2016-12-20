@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-hovers",
   "version": "1.0.0",
-  "description": "",
+  "description": "Add hover effects to elements http://tachyons.io.",
 
   "main": "index.css",
   "style": "index.css",

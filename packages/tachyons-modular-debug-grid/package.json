@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-debug-grid",
   "version": "1.0.0",
-  "description": "",
+  "description": "Background grid to help debug alignment issues.",
 
   "main": "index.css",
   "style": "index.css",

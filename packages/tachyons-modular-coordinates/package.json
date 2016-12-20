@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-coordinates",
   "version": "1.0.0",
-  "description": "",
+  "description": "Performance based css module. Use in combination with the position module.",
 
   "main": "index.css",
   "style": "index.css",

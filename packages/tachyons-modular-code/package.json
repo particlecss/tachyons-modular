@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-code",
   "version": "1.0.0",
-  "description": "",
+  "description": "Performance based css module.",
 
   "main": "index.css",
   "style": "index.css",

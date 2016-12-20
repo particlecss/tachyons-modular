@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-word-break",
   "version": "1.0.0",
-  "description": "",
+  "description": "A module for doing things with word-break http://tachyons.io.",
 
   "main": "index.css",
   "style": "index.css",

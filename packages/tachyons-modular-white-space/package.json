@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-white-space",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS module for controlling white-space http://tachyons.io.",
 
   "main": "index.css",
   "style": "index.css",

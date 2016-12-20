@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-display",
   "version": "1.0.0",
-  "description": "",
+  "description": "obile-first single purpose display utilities from Tachyons.",
 
   "main": "index.css",
   "style": "index.css",

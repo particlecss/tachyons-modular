@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-clears",
   "version": "1.0.0",
-  "description": "",
+  "description": "Performance based css module for clearing and clearfixing.",
 
   "main": "index.css",
   "style": "index.css",

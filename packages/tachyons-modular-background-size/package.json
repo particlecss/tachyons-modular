@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-background-size",
   "version": "1.0.0",
-  "description": "Background size CSS module for Tachyons",
+  "description": "Background size CSS module for Tachyons.",
 
   "main": "index.css",
   "style": "index.css",

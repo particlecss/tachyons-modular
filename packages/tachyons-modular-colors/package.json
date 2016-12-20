@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-colors",
   "version": "1.0.0",
-  "description": "",
+  "description": "Default CSS color variables for Tachyons.",
 
   "main": "index.css",
   "style": "index.css",

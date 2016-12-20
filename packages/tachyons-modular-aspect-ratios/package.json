@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-aspect-ratios",
   "version": "1.0.1",
-  "description": "Css for setting the aspect ratio of an element.",
+  "description": "Tachyons module for setting the aspect ratio of an element.",
 
   "main": "index.css",
   "style": "index.css",

@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-skins",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tachyons CSS module for skinning elements http://tachyons.io.",
 
   "main": "index.css",
   "style": "index.css",

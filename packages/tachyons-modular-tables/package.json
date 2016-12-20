@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-tables",
   "version": "1.0.0",
-  "description": "",
+  "description": "Module for styling tables https://tachyons.io.",
 
   "main": "index.css",
   "style": "index.css",

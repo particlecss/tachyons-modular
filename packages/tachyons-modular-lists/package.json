@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-lists",
   "version": "1.0.0",
-  "description": "",
+  "description": "List utilities from Tachyons.",
 
   "main": "index.css",
   "style": "index.css",

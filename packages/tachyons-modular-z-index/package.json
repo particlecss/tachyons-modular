@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-z-index",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tachyons css module for setting z-index on elements.",
 
   "main": "index.css",
   "style": "index.css",

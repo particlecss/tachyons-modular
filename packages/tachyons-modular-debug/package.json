@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-debug",
   "version": "1.0.0",
-  "description": "",
+  "description": "Debug partial for debugging css http://tachyons.io",
 
   "main": "index.css",
   "style": "index.css",

@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-max-widths",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS module for setting max-widths http://tachyons.io.",
 
   "main": "index.css",
   "style": "index.css",

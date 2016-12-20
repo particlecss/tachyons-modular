@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-negative-margins",
   "version": "1.0.0",
-  "description": "",
+  "description": "Negative margin spacing utilities for Tachyons.",
 
   "main": "index.css",
   "style": "index.css",

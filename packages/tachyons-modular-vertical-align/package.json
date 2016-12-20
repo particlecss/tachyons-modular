@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-vertical-align",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS module for setting vertical-align across breakpoints http://tachyons.io.",
 
   "main": "index.css",
   "style": "index.css",

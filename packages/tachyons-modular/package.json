@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular",
   "version": "1.0.0",
-  "description": "Functional CSS for humans",
+  "description": "Functional CSS for humans (modular fork). The full bundle",
 
   "main": "index.css",
   "style": "index.css",

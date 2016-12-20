@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-font-family",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS module for setting font-family http://tachyons.io.",
 
   "main": "index.css",
   "style": "index.css",

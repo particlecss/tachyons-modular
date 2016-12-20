@@ -1,7 +1,7 @@
 {
   "name": "tachyons-modular-letter-spacing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Letter spacing utilities from Tachyons.",
 
   "main": "index.css",
   "style": "index.css",
