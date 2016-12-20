@@ -1,15 +1,13 @@
 {
   "name": "tachyons-modular-coordinates",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Performance based css module. Use in combination with the position module.",
-
   "main": "index.css",
   "style": "index.css",
   "files": [
     "index.css",
     "lib"
   ],
-
   "repository": {
     "type": "git",
     "url": "git@github.com:particlecss/tachyons-modular.git"
@@ -20,20 +18,14 @@
     "css",
     "base"
   ],
-
   "author": "smuemd",
   "license": "MIT",
-
   "dependencies": {
-    "tachyons-modular-position": "^0.0.0"
+    "tachyons-modular-position": "^1.0.0"
   },
-
-  "devDependencies": {
-  },
-
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-
     "build:css": "mkdir -p build && ../../node_modules/.bin/tachyons index.css > build/build.css",
     "build:minify": "mkdir -p build && ../../node_modules/.bin/tachyons index.css -m > build/build.min.css",
     "build:docs": "../../node_modules/.bin/tachyons index.css --generate-docs --package=../../packages/${PWD##*/}/package.json > ${D}readme.md",
