@@ -1,7 +1,8 @@
 # TACHYONS
 
-Functional css for humans.
+This is a modular fork of [Tachyons](http://tachyons.io/)
 
+Functional css for humans. 
 Quickly build and design new UI without writing css.
 
 ## Principles
@@ -43,11 +44,11 @@ to the minified file in the head of your html file.
 
 You can always grab the latest version with
 ```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+<link rel="stylesheet" href="https://unpkg.com/tachyons-modular/build/build.min.css">
 ```
-You can also specify a specific version. The latest version is 4.6.1
+You can also specify a specific version. The latest version is 1.0.0
 ```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css">
+<link rel="stylesheet" href="https://unpkg.com/tachyons-modular@1.0.0/build/build.min.css">
 ```
 
 ### Local Setup
@@ -55,9 +56,10 @@ You can also specify a specific version. The latest version is 4.6.1
 Clone the repo from github and install dependencies through npm.
 
 ```
-git clone https://github.com/tachyons-css/tachyons.git
-cd tachyons
+git clone https://github.com/particlecss/tachyons-modular.git
+cd tachyons-modular
 npm install
+lerna bootstrap
 ```
 
 #### Dev
@@ -68,18 +70,13 @@ running
 
 ```npm start```
 
-This will output both minified and unminified versions of the css to the css directory and watch the src directory for changes.
-It's aliased to the command:
-
-```npm run build:watch```
-
-If you'd like to just build the css once without watching the src directory run
+If you'd like to build the css output, run
 
 ```npm run build```
 
 If you want to check that a class hasn't been redefined or 'mutated' there is a linter to check that all of the classes have only been defined once. This can be useful if you are using another library or have written some of your own css and want to make sure there are no naming collisions. To do this run the command
 
-```npm run mutations```
+```npm run test:mutations```
 
 ## Docs
 The tachyons docs located at http://tachyons.io are all open source and located at https://github.com/tachyons-css/tachyons-css.github.io
@@ -87,11 +84,6 @@ The tachyons docs located at http://tachyons.io are all open source and located 
 You can clone the docs and use them as a template for documenting your own design system / patterns / components.
 While not everything is automated, the component library generation makes it extremely easy to 
 generate and organize the documentation for components as demonstrated at http://tachyons.io/components
-
-
-## Contributing
-
-Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/master/code-of-conduct.md) for contributors.
 
 ## Websites that Use Tachyons
 (if you have a project that uses Tachyons feel free to make a PR to add it to this list)
@@ -164,10 +156,6 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 
 And of course...
 * http://tachyons.io
-
-## Help
-
-If you have a question or need help feel free to open an issue here or jump into the [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com).
 
 ## License
 
