@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-text-align",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "CSS module for setting the alignment of text across breakpoints http://tachyons.io.",
 
   "main": "index.css",

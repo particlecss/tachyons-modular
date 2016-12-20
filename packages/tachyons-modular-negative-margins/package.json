@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-negative-margins",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Negative margin spacing utilities for Tachyons.",
 
   "main": "index.css",
@@ -25,7 +25,7 @@
   "license": "MIT",
 
   "dependencies": {
-    "tachyons-modular-spacing": "^1.0.0"
+    "tachyons-modular-spacing": "^0.0.0"
   },
 
   "devDependencies": {

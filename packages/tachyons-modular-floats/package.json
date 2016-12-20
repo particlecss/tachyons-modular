@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-floats",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Single purpose float utilities from Tachyons.",
 
   "main": "index.css",

@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-forms",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Form control resets to remove default styles for mobile http://tachyons.io.",
 
   "main": "index.css",

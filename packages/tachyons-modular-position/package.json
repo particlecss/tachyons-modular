@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-position",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "CSS module for setting position across breakpoints http://tachyons.io.",
 
   "main": "index.css",

@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-flexbox",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Flexbox CSS module for Tachyons.",
 
   "main": "index.css",

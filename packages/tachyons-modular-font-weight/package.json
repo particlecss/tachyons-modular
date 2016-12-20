@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-font-weight",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Single purpose classes to set font-weight http://tachyons.io.",
 
   "main": "index.css",

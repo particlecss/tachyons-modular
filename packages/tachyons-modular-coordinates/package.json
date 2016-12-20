@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-coordinates",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Performance based css module. Use in combination with the position module.",
 
   "main": "index.css",
@@ -25,7 +25,7 @@
   "license": "MIT",
 
   "dependencies": {
-    "tachyons-modular-position": "^1.0.0"
+    "tachyons-modular-position": "^0.0.0"
   },
 
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-font-style",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "CSS module for setting font styles http://tachyons.io.",
 
   "main": "index.css",

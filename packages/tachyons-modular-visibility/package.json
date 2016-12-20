@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-visibility",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "CSS module for setting visibility on elements http://tachyons.io.",
 
   "main": "index.css",

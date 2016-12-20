@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-text-decoration",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Tachyons utilities for decorating text.",
 
   "main": "index.css",

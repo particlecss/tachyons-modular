@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-images",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Smarter image defaults from Tachyons.",
 
   "main": "index.css",

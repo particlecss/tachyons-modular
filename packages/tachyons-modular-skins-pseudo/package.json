@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-skins-pseudo",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Skins for hovers and focus states http://tachyons.io.",
 
   "main": "index.css",
@@ -25,7 +25,7 @@
   "license": "MIT",
 
   "dependencies": {
-    "tachyons-modular-colors": "^1.0.0"
+    "tachyons-modular-colors": "^0.0.0"
   },
 
   "devDependencies": {

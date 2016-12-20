@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-background-position",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Tachyons module for setting background position of images.",
 
   "main": "index.css",

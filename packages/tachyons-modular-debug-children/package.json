@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-debug-children",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Modules to debug layout issues http://tachyons.io.",
 
   "main": "index.css",

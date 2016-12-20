@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-box-shadow",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Box-shadow CSS module for Tachyons.",
 
   "main": "index.css",

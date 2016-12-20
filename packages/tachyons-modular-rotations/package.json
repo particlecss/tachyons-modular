@@ -1,6 +1,6 @@
 {
   "name": "tachyons-modular-rotations",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Tachyons module for setting rotation on elements.",
 
   "main": "index.css",
